@@ -39,7 +39,6 @@ section#login {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.475);
-
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
@@ -57,18 +56,18 @@ section#login>div#formulario {
     padding: 10px;
 }
 
-div#formulario > h1 {
+div#formulario>h1 {
     text-align: center;
     margin-bottom: 10px;
     cursor: default;
 }
 
-div#formulario > p {
+div#formulario>p {
     font-size: 0.8em;
     cursor: default;
 }
 
-form > div.campo {
+form>div.campo {
     background-color: #d219a7;
     display: block;
     width: 100%;
@@ -78,29 +77,30 @@ form > div.campo {
     border: 2px solid #a0007b;
 }
 
-div.campo > label {
-    display:none;
+div.campo>label {
+    display: none;
 }
 
-div.campo > span{
+div.campo>span {
     color: white;
     font-size: 2em;
     width: 40px;
     padding: 5px;
+    cursor: pointer;
 }
 
-div.campo > input {
+div.campo>input {
     background-color: #ffffff;
     font-size: 1em;
     width: calc(100% - 45px);
-    transform: translateY(-12px);
     height: 95%;
     border: none;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-12px);
 }
 
-form > input[type=submit] {
+form>input[type=submit] {
     cursor: pointer;
     display: block;
     font-size: 1em;
@@ -112,12 +112,12 @@ form > input[type=submit] {
     border-radius: 5px;
 }
 
-form > input[type=submit]:hover {
+form>input[type=submit]:hover {
     background-color: #f22d05;
     transition: 0.5s;
 }
 
-form > a.botao {
+form>a.botao {
     display: block;
     text-align: center;
     font-size: 1em;
@@ -125,18 +125,18 @@ form > a.botao {
     height: 40px;
     padding-top: 5px;
     margin-top: 5px;
-    background-color:white;
+    background-color: white;
     color: black;
     text-decoration: none;
     border-radius: 5px;
     border: 1px solid #f22d05;
 }
 
-form > a.botao > i {
+form>a.botao>i {
     font-size: 0.9em;
 }
 
-form > a.botao:hover {
+form>a.botao:hover {
     background-color: #ff9900;
     transition: 0.5s;
 }
